@@ -62,8 +62,28 @@ if (number4 < 21) {
     console.log("invalid");
 }
 //5
-let currentPrice = readline.question( "Enter current price: ");
-let originalPrice = readline.question( "Enter original price: ");
-let diff = originalPrice-currentPrice;
-let discount = (currentPrice / originalPrice).toFixed(2)
-;console.log(`discount: ${discount}`);
+let cost = Number(Readline.question("Enter meal cost"));
+if (cost <= 0){
+    console.log("invalid cost");
+} else {
+    let tax = cost * .08;
+    let newCost = cost + tax
+    console.log(`Your cost is ${newCost.toFixed(2)}`);
+}
+//7 and 8
+let mealCost = Number(readLine.question("Enter meal cost: "));
+if (mealCost <= 0){
+    console.log("invalid cost")
+} else {
+    let service = readLine.question("Service was (great/good/average). Enter choice: ");
+    let tip = 0;
+    if (service == "great") {
+        tip = mealCost * .20;
+    } else if (service == "good") {
+        tip = mealCost * .15;
+    } else {
+        tip = mealCost * .10;
+    }
+    let newTotal = mealCost + tip;
+    console.log(`The tip should be $${newTotal.toFixed(2)}.`);
+}
