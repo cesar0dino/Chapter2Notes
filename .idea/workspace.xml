@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="422cdaf8-01a7-4a2d-b656-26b749581bc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2.2.4Loop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.2.4LoopReview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.2.4LoopReview2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.2.4Loop.js" beforeDir="false" afterPath="$PROJECT_DIR$/2.2.4Loop.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.2.4Loop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="697">
+              <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -76,6 +76,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2.2.4LoopReview2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -102,8 +111,9 @@
         <option value="$PROJECT_DIR$/node_modules/InputNotes2.js" />
         <option value="$PROJECT_DIR$/InputNotes2.js" />
         <option value="$PROJECT_DIR$/Input2.js" />
-        <option value="$PROJECT_DIR$/2.2.4Loop.js" />
         <option value="$PROJECT_DIR$/2.2.4LoopReview.js" />
+        <option value="$PROJECT_DIR$/2.2.4LoopReview2.js" />
+        <option value="$PROJECT_DIR$/2.2.4Loop.js" />
       </list>
     </option>
   </component>
@@ -118,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,6 +139,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,7 +206,9 @@
       <workItem from="1676568933233" duration="2990000" />
       <workItem from="1676655453691" duration="1574000" />
       <workItem from="1676657060831" duration="154000" />
-      <workItem from="1676657229164" duration="1175000" />
+      <workItem from="1676657229164" duration="1266000" />
+      <workItem from="1677000964740" duration="3202000" />
+      <workItem from="1677087437356" duration="953000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1675706642487</created>
@@ -226,14 +238,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676572108431</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2.2.4Loop">
+      <created>1676658461140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676658461140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25860000" />
+    <option name="totallyTimeSpent" value="30106000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
@@ -262,7 +281,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="updated input1" />
     <MESSAGE value="updated input2" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated input2" />
+    <MESSAGE value="2.2.4Loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.2.4Loop" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2.2.1Variables.js">
@@ -300,6 +320,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2.2.4Loop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2.2.4LoopReview.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -307,10 +334,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2.2.4Loop.js">
+    <entry file="file://$PROJECT_DIR$/2.2.4LoopReview2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
